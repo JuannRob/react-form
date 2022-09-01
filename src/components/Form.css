@@ -1,0 +1,21 @@
+form label {
+    display: block;
+}
+
+form input {
+    display: block;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+.invalid::after {
+    content: "!";
+    font-weight: bolder;
+    color: red;
+}
+
+.valid {
+    border: 1px solid black;
+}

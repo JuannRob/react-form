@@ -6,7 +6,7 @@ import Form from "react-bootstrap/Form";
 
 const Schema = Yup.object().shape({
   name: Yup.string().required("Required"),
-  email: Yup.string().email("Invalid email").required("Required"),
+  email: Yup.string().required("Required"),
   password: Yup.string().required("Required"),
 });
 

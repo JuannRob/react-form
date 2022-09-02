@@ -1,11 +1,10 @@
 import './App.css';
-import Form from './components/Form';
+import Forms from './components/Forms';
 
 const App = () => {
   return (
     <div className="App">
-    <h2>Formulario</h2>
-      <Form />
+      <Forms />
     </div>
   );
 }
